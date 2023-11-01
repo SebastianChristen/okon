@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Okon Webdev Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand extern-rainbow-text" href="#about">Okon</a>
+        <button
+          class="navbar-toggler navbar-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#products">Our Products</a>
+            <a class="nav-link" href="#goals">Our Goals</a>
+            <a class="nav-link" href="#mindset">Our Mindset</a>
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="background"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+        navLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            if (window.innerWidth < 768) {
+              let navbarToggler = document.querySelector(".navbar-toggler");
+              navbarToggler.click();
+            }
+          });
+        });
+      });
+    </script>
+    <main>
+      <section id="about">
+        <div class="content">
+          <h1>About us</h1>
+
+          <img src="./team1.jpg" style="width: 30%; min-width: 300px; float: left; margin: 20px" />
+
+          <p>
+            Once upon a digital frontier, a visionary by the name of SebuPro69 embarked on a remarkable journey. Born from a
+            profound passion for innovation and driven by an insatiable desire to create, the seeds of Okon were sown. What
+            started as a humble dream eventually bloomed into a thriving global entity that stands tall today.
+          </p>
+
+          <p>
+            SebuPro69, a dynamic entrepreneur with a knack for combining the extraordinary, had an epiphany. He envisioned a
+            company that blended the 'AWESOME' aspects of digital innovation with the unwavering 'COMMITMENT' to excellence. Thus,
+            Okon, a name that resonated with the promise of remarkable experiences, was born.
+          </p>
+
+          <p>
+            As a small startup in Japan, SebuPro69 and his dedicated team embarked on a quest to redefine the digital landscape.
+            Their first creation, 'Awesite,' a web platform like no other, turned heads and set the bar for digital excellence. It
+            became the talk of the town, a shining example of what passion, dedication, and ingenuity could achieve.
+          </p>
+          <img src="./team2.jpg" style="width: 30%; min-width: 300px; float: right; margin: 20px" />
+          <p>
+            With their sights set on expanding their global footprint, SebuPro69 strategically established a presence in
+            Switzerland. The blend of Japanese precision and Swiss sophistication became a hallmark of Okon's offerings. This
+            strategic move enabled them to access diverse markets, foster global collaborations, and bring their unique vision to
+            a broader audience.
+          </p>
+
+          <p>
+            Business boomed, and the world took notice of Okon's commitment to innovation and creativity. 'Awesite' became the
+            gold standard for web experiences, and 'Worldaround,' their Minecraft server, grew into a thriving virtual community.
+            But beyond the products, Okon was renowned for its unique mindset.
+          </p>
+
+          <p>
+            'Create, Don't Just Consume' became the mantra. The team at Okon inspired a generation to be creators, to craft, and
+            to build. Their culture of innovation and 'can-do' spirit made them trailblazers in the industry.
+          </p>
+
+          <p>
+            Today, Okon stands as a testament to SebuPro69's visionary leadership and the collective efforts of a global team.
+            From a dream born in the heart of Japan to a worldwide force to be reckoned with, Okon continues to inspire, create,
+            and set the bar higher. Join us as we shape the digital future, one 'AWESOME' creation at a time.
+          </p>
+        </div>
+      </section>
+
+      <section id="products">
+        <div class="content">
+          <h1>Our Products</h1>
+          <p class="text-dark">
+            At Okon, we are proud to offer a range of innovative and groundbreaking products that redefine the digital experience.
+            It all started with 'Awesite,' a web platform that disrupted the digital landscape and set new standards in 2023.
+          </p>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                  <img src="./ax.png" class="card-img-top" alt="Awesite Xperience" />
+                  <div class="card-body">
+                    <h2 class="card-title">Awesite Xperience</h2>
+                    <p class="card-text">
+                      Experience the next level with 'Awesite Xperience.' We've taken 'Awesite' to new heights with cutting-edge
+                      features that offer a unique digital journey and immerse users in a world of 'AWESOME.'
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                  <img src="./wa.png" class="card-img-top" alt="Worldaround" />
+                  <div class="card-body">
+                    <h2 class="card-title">Worldaround</h2>
+                    <p class="card-text">
+                      Step into 'Worldaround,' our Minecraft server that goes beyond gaming. It's a thriving virtual community
+                      where creativity knows no bounds. Join us in building, exploring, and connecting in this limitless world.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                  <img src="./in.png" class="card-img-top" alt="Innoverse" />
+                  <div class="card-body">
+                    <h2 class="card-title">Innoverse</h2>
+                    <p class="card-text">
+                      Empower your business with 'Innoverse,' our suite of digital tools and services. From custom web development
+                      to advanced e-commerce solutions, we provide the expertise and technology you need to excel in the online
+                      world.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                  <img src="./mc.png" class="card-img-top" alt="MindCraft" />
+                  <div class="card-body">
+                    <h2 class="card-title">MindCraft</h2>
+                    <p class="card-text">
+                      Unlock your creative potential with 'MindCraft.' It's a platform for online courses and workshops that
+                      inspire individuals to develop their creative thinking, problem-solving skills, and innovative spirit. Learn
+                      from the best and become a true creator.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                  <img src="./ds.png" class="card-img-top" alt="DigiShield" />
+                  <div class="card-body">
+                    <h2 class="card-title">DigiShield</h2>
+                    <p class="card-text">
+                      Enhance your online security with 'DigiShield.' Our advanced cybersecurity solution offers protection
+                      against cyber threats, data breaches, and malware, ensuring your digital presence remains safe and secure.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                  <img src="./dm.png" class="card-img-top" alt="DataMagnet" />
+                  <div class="card-body">
+                    <h2 class="card-title">DataMagnet</h2>
+                    <p class="card-text">
+                      Harness the power of data with 'DataMagnet.' Our data analytics platform provides real-time insights,
+                      allowing you to make informed decisions, optimize operations, and gain a competitive edge in the digital
+                      world.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="goals">
+        <div class="content">
+          <h1>Our Goals</h1>
+
+          <div class="goal-box">
+            <h2>Innovation Pioneer</h2>
+            <p>
+              To be at the forefront of technological advancements, creating cutting-edge solutions that shape the future of
+              digital experiences.
+            </p>
+          </div>
+
+          <div class="goal-box">
+            <h2>Global Impact</h2>
+            <p>
+              To make a global impact, leaving our mark in countries and communities worldwide, driven by diversity and
+              inclusivity.
+            </p>
+          </div>
+
+          <div class="goal-box">
+            <h2>Environmental Responsibility</h2>
+            <p>
+              To reduce our carbon footprint and embrace sustainable practices, contributing to a greener, more sustainable
+              planet.
+            </p>
+          </div>
+
+          <div class="goal-box">
+            <h2>Empowering Creativity</h2>
+            <p>
+              To inspire individuals to unlock their creative potential and achieve their dreams through our 'MindCraft' platform.
+            </p>
+          </div>
+
+          <div class="goal-box">
+            <h2>Tech Education for All</h2>
+            <p>To provide accessible tech education and resources to underserved communities, bridging the digital divide.</p>
+          </div>
+
+          <div class="goal-box">
+            <h2>Innovative Partnerships</h2>
+            <p>
+              To establish strategic partnerships with like-minded organizations and innovators worldwide, co-creating
+              groundbreaking solutions.
+            </p>
+          </div>
+
+          <div class="goal-box">
+            <h2>Digital Ethics</h2>
+            <p>
+              To champion transparency, privacy, and responsible technology use, upholding the highest ethical standards in the
+              digital realm.
+            </p>
+          </div>
+
+          <div class="goal-box">
+            <h2>Inspire the Next Generation</h2>
+            <p>
+              To foster a spirit of creativity and innovation in young minds, encouraging them to pursue careers in technology and
+              dream big.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="mindset">
+        <div class="content">
+          <h1>Our Mindset</h1>
+
+          <div class="mindset-section">
+            <h2>Create, Don't Just Consume</h2>
+            <p>
+              This mindset is at the core of our philosophy. We believe in being creators, not just consumers. Whether it's
+              developing groundbreaking products or inspiring individuals to unlock their creative potential, we encourage
+              everyone to take an active role in shaping their digital experiences.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Fail Forward</h2>
+            <p>
+              We view failure as an opportunity for growth. Instead of fearing failure, we embrace it as a natural part of the
+              innovation process. Every setback is a chance to learn, adapt, and come back stronger.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Customer-Centric Innovation</h2>
+            <p>
+              Our customers are at the heart of everything we do. We believe in creating solutions that truly meet their needs and
+              exceed their expectations. Continuous feedback and user-centric design drive our innovation.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Agile and Adaptable</h2>
+            <p>
+              In the ever-evolving digital landscape, adaptability is key. We adopt an agile approach, enabling us to respond to
+              change quickly and deliver value to our users promptly.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Diverse Perspectives</h2>
+            <p>
+              We value diversity in all its forms. Different backgrounds and perspectives enrich our team and lead to more
+              innovative solutions. We actively seek out diverse voices to ensure our products and services resonate with a wide
+              audience.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Sustainability-Minded</h2>
+            <p>
+              Sustainability isn't just a buzzword; it's a commitment. We integrate sustainable practices into our operations and
+              products, contributing to a greener, more responsible digital future.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Global Citizenship</h2>
+            <p>
+              Our mindset extends beyond borders. We consider ourselves global citizens, committed to making a positive impact in
+              every community we touch, respecting local cultures and embracing diversity.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Never Stop Learning</h2>
+            <p>
+              We foster a culture of continuous learning. Our team is encouraged to stay curious, explore new technologies, and
+              stay at the forefront of industry trends.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Innovation with Ethics</h2>
+            <p>
+              Our innovation goes hand in hand with ethical responsibility. We are dedicated to ethical data handling, privacy
+              protection, and the responsible use of technology.
+            </p>
+          </div>
+
+          <div class="mindset-section">
+            <h2>Passion-Driven</h2>
+            <p>
+              Passion is the engine that propels us forward. We believe that passion is a catalyst for creativity and that it's
+              what makes our work truly 'AWESOME.'
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="content">
+          <h1>Contact us</h1>
+          <h2>Customer Support:</h2>
+          <p>
+            Our dedicated customer support team is available around the clock to assist you with any inquiries or issues. You can
+            reach them via email at <a href="mailto:support@okon.com">support@okon.com</a> or by calling our toll-free number,
+            <a href="tel:1-800-OKON-NOW">1-800-OKON-NOW</a>.
+          </p>
+
+          <h2>General Inquiries:</h2>
+          <p>
+            For general questions about Okon, our products, or partnerships, you can send an email to
+            <a href="mailto:info@okon.com">info@okon.com</a>. We strive to respond promptly and provide the information you need.
+          </p>
+
+          <h2>Technical Support:</h2>
+          <p>
+            If you encounter technical challenges with any of our services, our expert technical support team is ready to assist.
+            Reach out to them at
+            <a href="mailto:techsupport@okon.com">techsupport@okon.com</a>, and they will guide you through any troubleshooting or
+            technical questions.
+          </p>
+
+          <h2>Collaboration and Partnerships:</h2>
+          <p>
+            Okon welcomes collaboration opportunities with businesses, organizations, and creative minds. If you are interested in
+            partnering with us, please contact our partnerships team at
+            <a href="mailto:partnerships@okon.com">partnerships@okon.com</a>. We look forward to exploring innovative ventures
+            together.
+          </p>
+
+          <h2>Visit Our Offices:</h2>
+          <p>
+            While our digital presence is vast, you are also welcome to visit our physical offices. We have locations in Tokyo,
+            Japan, and Zurich, Switzerland, where you can meet our team in person. Find our addresses and office hours on the
+            "Locations" page of our website.
+          </p>
+
+          <h2>Social Media:</h2>
+          <p>
+            Stay connected with Okon through our social media channels. You can follow us on
+            <a href="https://twitter.com/OkonOfficial" target="_blank">Twitter</a>,
+            <a href="https://www.facebook.com/OkonOfficial" target="_blank">Facebook</a>, and
+            <a href="https://www.instagram.com/OkonOfficial" target="_blank">Instagram</a>
+            for the latest updates, news, and community engagement. We value your input and love hearing from you.
+          </p>
+        </div>
+      </section>
+
+      <section></section>
+    </main>
+  </body>
+</html>
