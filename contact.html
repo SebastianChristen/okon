@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Okon Webdev Company</title>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+         rel="stylesheet" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <body>
+      <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark" data-bs-theme="dark">
+         <div class="container-fluid">
+            <a class="navbar-brand extern-rainbow-text" href="#about">Okon</a>
+            <button
+               class="navbar-toggler navbar-light"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNavAltMarkup"
+               aria-controls="navbarNavAltMarkup"
+               aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav">
+                  <a class="nav-link" href="about.html">About Us</a>
+                  <a class="nav-link" href="products.html">Our Products</a>
+                  <a class="nav-link" href="goals.html">Our Goals</a>
+                  <a class="nav-link" href="mindset.html">Our Mindset</a>
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <script>
+         document.addEventListener("DOMContentLoaded", (event) => {
+            const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+            navLinks.forEach((link) => {
+               link.addEventListener("click", () => {
+                  if (window.innerWidth < 768) {
+                     let navbarToggler = document.querySelector(".navbar-toggler");
+                     navbarToggler.click();
+                  }
+               });
+            });
+         });
+      </script>
+      <main>
+      
+
+         <section id="contact">
+            <div class="content">
+               <h1>Contact us</h1>
+               <h2>Customer Support:</h2>
+               <p>
+                  Our dedicated customer support team is available around the clock to assist you
+                  with any inquiries or issues. You can reach them via email at
+                  <a href="mailto:support@okon.com">support@okon.com</a> or by calling our toll-free
+                  number, <a href="tel:1-800-OKON-NOW">1-800-OKON-NOW</a>.
+               </p>
+
+               <h2>General Inquiries:</h2>
+               <p>
+                  For general questions about Okon, our products, or partnerships, you can send an
+                  email to
+                  <a href="mailto:info@okon.com">info@okon.com</a>. We strive to respond promptly
+                  and provide the information you need.
+               </p>
+
+               <h2>Technical Support:</h2>
+               <p>
+                  If you encounter technical challenges with any of our services, our expert
+                  technical support team is ready to assist. Reach out to them at
+                  <a href="mailto:techsupport@okon.com">techsupport@okon.com</a>, and they will
+                  guide you through any troubleshooting or technical questions.
+               </p>
+
+               <h2>Collaboration and Partnerships:</h2>
+               <p>
+                  Okon welcomes collaboration opportunities with businesses, organizations, and
+                  creative minds. If you are interested in partnering with us, please contact our
+                  partnerships team at
+                  <a href="mailto:partnerships@okon.com">partnerships@okon.com</a>. We look forward
+                  to exploring innovative ventures together.
+               </p>
+
+               <h2>Visit Our Offices:</h2>
+               <p>
+                  While our digital presence is vast, you are also welcome to visit our physical
+                  offices. We have locations in Tokyo, Japan, and Zurich, Switzerland, where you can
+                  meet our team in person. Find our addresses and office hours on the "Locations"
+                  page of our website.
+               </p>
+
+               <h2>Social Media:</h2>
+               <p>
+                  Stay connected with Okon through our social media channels. You can follow us on
+                  <a href="https://twitter.com/OkonOfficial" target="_blank">Twitter</a>,
+                  <a href="https://www.facebook.com/OkonOfficial" target="_blank">Facebook</a>, and
+                  <a href="https://www.instagram.com/OkonOfficial" target="_blank">Instagram</a>
+                  for the latest updates, news, and community engagement. We value your input and
+                  love hearing from you.
+               </p>
+            </div>
+         </section>

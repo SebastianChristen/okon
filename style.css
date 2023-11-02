@@ -1,191 +1,177 @@
 :root {
-  --primary-bg-color: #fff;
-  --tertiary-bg-color: rgba(140, 140, 200, 1);
-  --quartiary-bg-color: rgba(199, 199, 199, 1);
-  --secondary-bg-color: rgba(30, 30, 30);
-  --border-color: #ccc;
-  --text-color: #ccc;
-  --header-color: rgba(80, 80, 128, 0.8);
-  --accent-color: #66c;
+   --primary-bg-color: #fff;
+   --tertiary-bg-color: rgba(140, 140, 200, 1);
+   --quartiary-bg-color: rgba(199, 199, 199, 1);
+   --secondary-bg-color: rgba(30, 30, 30);
+   --border-color: #ccc;
+   --text-color: #ccc;
+   --header-color: rgba(80, 80, 128, 0.8);
+   --accent-color: #66c;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  color: var(--text-color);
-  background-color: var(--primary-bg-color);
-  font-family: monospace, Arial, sans-serif;
-  padding-top: 50px !important;
-  background-size: auto;
-  background-repeat: repeat;
-  transition: background-color 0.5s;
+   font-weight: 800 !important;
+   margin: 0;
+   padding: 0;
+   color: var(--text-color);
+   background-color: var(--primary-bg-color);
+   font-family: monospace, Arial, sans-serif;
+   padding-top: 50px !important;
+   background-size: auto;
+   background-repeat: repeat;
+   transition: background-color 0.5s;
 }
 
 p {
-  margin: 10px 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 1.5;
+   margin: 10px 0;
+   padding: 0;
+   font-size: 16px;
+   line-height: 1.5;
 }
 
 .goal-box {
-  background-color: var(--secondary-bg-color);
-  border-collapse: collapse;
-  border: 1px solid var(--border-color);
-  border-radius: 5px;
-  margin: 20px;
-  padding: 15px;
-  transition: background-color 0.5s;
+   border-radius: 5px;
+   background-color: var(--header-color);
+   color: var(--primary-bg-color);
+   padding: 20px;
+   margin: 20px 0;
 }
 
 .mindset-section {
-  background-color: var(--secondary-bg-color);
-  border: 1px solid var(--border-color);
-  border-radius: 5px;
-  margin: 20px;
-  padding: 20px;
-  transition: background-color 0.5s;
+   background-color: var(--secondary-bg-color);
+   border: 1px solid var(--border-color);
+   border-radius: 5px;
+   margin: 20px;
+   padding: 20px;
+   transition: background-color 0.5s;
 }
 
 #products img {
-  width: 70px;
-  margin: 10px;
+   width: 70px;
+   margin: 10px;
 }
 
 td {
-  padding: 8px;
+   padding: 8px;
 }
 
 tr {
-  border-radius: 5px;
-  border: 1px solid var(--border-color);
-  background-color: var(--secondary-bg-color);
+   border-radius: 5px;
+   border: 1px solid var(--border-color);
+   background-color: var(--secondary-bg-color);
 }
 
 table {
-  border-collapse: separate;
-  border-spacing: 0 15px;
+   border-collapse: separate;
+   border-spacing: 0 15px;
 }
 
 img {
-  border-radius: 5px;
+   border-radius: 5px;
 }
 
 .content {
-  max-width: 1200px;
+   max-width: 1200px;
+   padding: 20px;
+   background-color: var(--header-color);
+   border-radius: 5px;
 }
 
-.card{
-  background-color: var(--secondary-bg-color);
-  height: max-content;
+.card {
+   background-color: var(--secondary-bg-color);
+   height: max-content;
 }
 
 section {
-  scroll-margin-top: 60px !important;
-  padding: 40px 16px;
-  text-align: justify;
-  background-color: var(--secondary-bg-color) !important;
+   scroll-margin-top: 60px !important;
+   padding: 40px 16px;
+   text-align: justify;
+   background-color: var(--tertiary-bg-color) !important;
 
-  display: flex;
-  justify-content: center;
-
+   display: flex;
+   justify-content: center;
 }
 
 section:nth-child(even) {
-  background-color: var(--quartiary-bg-color) !important;
+   background-color: var(--quartiary-bg-color) !important;
 }
 
 h1 {
-  width: fit-content;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: var(--header-color);
-  margin-bottom: 10px;
-  font-size: 1.75rem;
+   
+   padding: 10px;
+   border-radius: 5px;
+   /*background-color: var(--header-color);*/
+   margin-bottom: 10px;
+   font-size: 1.75rem;
+   text-align: center!important;
 }
 
 ul {
-  padding-left: 20px;
+   padding-left: 20px;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  background-color: rgb(102, 102, 204);
+   background-color: rgb(102, 102, 204);
 }
 
 .navbar-brand {
-  background-color: var(--header-color);
-  border-radius: 5px;
-  margin: auto 2px !important;
-  color: var(--text-color);
-  padding: 8px;
+   background-color: var(--header-color);
+   border-radius: 5px;
+   margin: auto 2px !important;
+   color: var(--text-color);
+   padding: 8px;
 }
 
 .navbar {
-  font-weight: 200 !important;
-  font-size: 20px !important;
-  top: 0px;
+   font-weight: 200 !important;
+   font-size: 20px !important;
+   top: 0px;
 }
 
 .nav-link {
-  border-radius: 5px;
-  margin: auto 2px !important;
-  color: var(--text-color);
+   border-radius: 5px;
+   margin: auto 2px !important;
+   color: var(--text-color);
 }
 
 .background {
-  background-image: url(./header.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 70vh;
-  aspect-ratio: 16 / 9;
+   background-image: url(img/header.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 70vh;
+   aspect-ratio: 16 / 9;
 }
 
 h2 {
-  font-size: 1.25rem;
+   font-size: 1.25rem;
 }
 
 p {
-  font-size: 1rem;
-  margin-bottom: 20px;
+   font-size: 1rem;
+   margin-bottom: 20px;
 }
 
 /* Styling for images within paragraphs */
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Goal boxes */
-.goal-box {
-  background-color: var(--secondary-bg-color);
-  color: var(--text-color);
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 5px;
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
 }
 
 a {
-  color: var(--header-color);
-  text-decoration: none;
-}
-
-/* Hover effects */
-.goal-box:hover,
-.mindset-section:hover {
-  background-color: var(--accent-color);
-  transition: background-color 0.5s;
+   color: var(--header-color);
+   text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  background-color: var(--accent-color);
-  transition: background-color 0.5s;
+   background-color: var(--accent-color);
+   transition: background-color 0.5s;
 }
 
 section {
-  display: grid;
-  grid-template-columns: repeat(auto, 1fr);
+   display: grid;
+   grid-template-columns: repeat(auto, 1fr);
 }
